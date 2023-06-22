@@ -1,0 +1,67 @@
+{
+  "analytics": {
+    "n2mutanKinesis": {
+      "providerPlugin": "awscloudformation",
+      "service": "Kinesis"
+    }
+  },
+  "api": {
+    "N2Mutan": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "n2mutanb0b1a8a3"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "auth": {
+    "n2mutan": {
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaTypes": [],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": []
+        },
+        "signupAttributes": [],
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "verificationMechanisms": []
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "managed"
+    }
+  },
+  "function": {
+    "n2mutanb0b1a8a3": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_n2mutanb0b1a8a3_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "n2mutanb0b1a8a3"
+        }
+      ]
+    },
+    "AMPLIFY_function_n2mutanb0b1a8a3_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "n2mutanb0b1a8a3"
+        }
+      ]
+    }
+  }
+}

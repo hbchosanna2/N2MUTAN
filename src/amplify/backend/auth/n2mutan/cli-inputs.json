@@ -1,0 +1,12 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "n2mutan_identitypool_31cf5ad0",
+    "allowUnauthenticatedIdentities": false,
+    "authSelections": "identityPoolOnly",
+    "resourceName": "n2mutan",
+    "sharedId": "31cf5ad0",
+    "serviceName": "Cognito",
+    "useDefault": "manual"
+  }
+}

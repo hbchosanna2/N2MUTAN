@@ -1,0 +1,92 @@
+/* Add your custom styles here */
+
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  /* Product list styles */
+  .product-list {
+    margin: 20px 0;
+  }
+  
+  .product-list h2 {
+    font-size: 20px;
+    margin: 0 0 10px;
+  }
+  
+  .product-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .product-list li {
+    margin-bottom: 10px;
+  }
+  
+  /* Product item styles */
+  .product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .product-item h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .product-item p {
+    margin: 10px 0;
+  }
+  
+  .product-item button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Cart styles */
+  .cart {
+    margin: 20px 0;
+  }
+  
+  .cart h2 {
+    font-size: 20px;
+    margin: 0 0 10px;
+  }
+  
+  .cart ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  

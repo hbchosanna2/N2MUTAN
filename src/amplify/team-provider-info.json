@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-n2mutan-dev-231143-authRole",
+      "UnauthRoleArn": "arn:aws:iam::065558658594:role/amplify-n2mutan-dev-231143-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::065558658594:role/amplify-n2mutan-dev-231143-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-n2mutan-dev-231143-deployment",
+      "UnauthRoleName": "amplify-n2mutan-dev-231143-unauthRole",
+      "StackName": "amplify-n2mutan-dev-231143",
+      "StackId": "arn:aws:cloudformation:us-east-1:065558658594:stack/amplify-n2mutan-dev-231143/83d01140-10aa-11ee-b936-0a3375b93eef",
+      "AmplifyAppId": "d3aqf1r3mjxqfj"
+    },
+    "categories": {
+      "function": {
+        "n2mutanb0b1a8a3": {
+          "deploymentBucketName": "amplify-n2mutan-dev-231143-deployment",
+          "s3Key": "amplify-builds/n2mutanb0b1a8a3-576e6c63595274736659-build.zip"
+        }
+      },
+      "api": {
+        "N2Mutan": {}
+      },
+      "auth": {
+        "n2mutan": {}
+      }
+    }
+  }
+}

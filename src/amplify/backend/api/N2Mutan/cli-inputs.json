@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/N2MUTAN": {
+      "name": "/N2MUTAN",
+      "lambdaFunction": "n2mutanb0b1a8a3",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
